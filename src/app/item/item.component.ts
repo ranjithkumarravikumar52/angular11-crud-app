@@ -9,13 +9,12 @@ export class ItemComponent implements OnInit {
   itemName: string;
 
   constructor() {
-    this.itemName = 'Sample Item';
+    this.itemName = '';
   }
 
   ngOnInit(): void {}
 
   getItemName(): string {
-    this.itemName = 'Button clicked!'
     return this.itemName;
   }
 }
