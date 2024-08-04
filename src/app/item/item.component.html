@@ -1,5 +1,6 @@
 <div>
     <h2>{{ itemName }}</h2>
     <input [(ngModel)]="itemName" placeholder="Enter item name">
+    <input [value]="itemName" placeholder="Property Binding">
     <button (click)="getItemName()">Get Item Name</button>
 </div>
