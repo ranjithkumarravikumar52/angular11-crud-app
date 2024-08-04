@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./item.component.css']
 })
 export class ItemComponent implements OnInit {
+  itemName: string;
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() {
+    this.itemName = 'Sample Item';
   }
 
+  ngOnInit(): void {}
+
+  getItemName(): string {
+    this.itemName = 'Button clicked!'
+    return this.itemName;
+  }
 }
