@@ -1,0 +1,18 @@
+{
+    "root": true,
+    "parserOptions": {
+      "project": ["./tsconfig.json"],
+      "createDefaultProgram": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:@angular-eslint/recommended"
+    ],
+    "rules": {
+      "@typescript-eslint/no-unused-vars": "warn",
+      "semi": ["error", "always"],
+      "quotes": ["error", "single"]
+    }
+  }
+  

@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true, // Automatically formats the file when you save
+  "editor.formatOnPaste": true, // Automatically formats the code when you paste
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Set Prettier as the default formatter
+  "prettier.requireConfig": true, // Ensures Prettier uses a project-specific config if available
+  "typescript.preferences.importModuleSpecifier": "relative", // Auto-import as relative paths
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit" // Automatically organizes imports on save
+  },
+  "eslint.format.enable": true, // Enable ESLint as a formatter
+  "prettier.singleQuote": true, // Use single quotes
+  "prettier.trailingComma": "all", // Add trailing commas where possible
+  "prettier.semi": true, // Ensure semicolons are used
+  "prettier.tabWidth": 2, // Set tab width to 2 spaces
+  "prettier.printWidth": 100 // Set maximum line length
+}
